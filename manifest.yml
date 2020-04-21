@@ -1,0 +1,7 @@
+applications:
+  - name: TrialNodeAppl
+    random-route: true
+    command: node app.js
+    memory: 128M
+    buildpack: nodejs_buildpack
+    instances: 1
