@@ -4,6 +4,6 @@ applications:
     host: trialNodeappl
     domian: au-syd.mybluemix.net
     command: node app.js
-    memory: 128M
+    memory: 64M
     buildpack: nodejs_buildpack
     instances: 1
